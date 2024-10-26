@@ -15,4 +15,25 @@ This project implements a rule evaluation engine that processes logical and comp
 - Evaluates rules against provided data, returning boolean results.
 - Supports logical operations (`AND`, `OR`) and various comparison operators (`==`, `!=`, `>`, `<`, `>=`, `<=`).
 
-##Installation
+## Installation
+
+# Clone the Repository
+git clone https://github.com/gargeem29/ruleengineAST.git
+cd ruleengineAST
+
+# Set Up Virtual Environment
+# Create and activate a virtual environment
+python -m venv venv
+
+# Activate the virtual environment
+# On Windows
+venv\Scripts\activate
+
+# On macOS/Linux
+# source venv/bin/activate
+
+# Install Required Packages
+pip install -r requirements.txt
+
+
+
